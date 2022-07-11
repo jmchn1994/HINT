@@ -1,0 +1,14 @@
+{
+  "toolName": "XSmart Search",
+  "condition": {
+    "short": "LLHH Perf",
+    "long": "Low-Low-High-High Performance",
+    "details": ""
+  },
+  "desc": "",
+  "participants": {
+    "total": 50,
+    "selected": 43
+  },
+  "deployTime": "6/19/2020 - 6/25/2020"
+}

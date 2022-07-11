@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Chen"
+  given-names: "Quan Ze"
+- family-names: "Schnabel"
+  given-names: "Tobias"
+- family-names: "Nushi"
+  given-names: "Besmira"
+- family-names: "Amershi"
+  given-names: "Saleema"
+title: "HINT: Integration Testing for AI-Based Features with Humans in the Loop"
+version: 1.0
+doi: 10.1145/3490099.3511141
+date-released: 2022-07-10
+url: "https://github.com/jmchn1994/HINT"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Chen"
+      given-names: "Quan Ze"
+    - family-names: "Schnabel"
+      given-names: "Tobias"
+    - family-names: "Nushi"
+      given-names: "Besmira"
+    - family-names: "Amershi"
+      given-names: "Saleema"
+  doi: "10.1145/3490099.3511141"
+  isbn: "9781450391443"
+  publisher: "Association for Computing Machinery"
+  start: 549
+  end: 565
+  title: "HINT: Integration Testing for AI-Based Features with Humans in the Loop"
+  year: 2022
+  booktitle: "27th International Conference on Intelligent User Interfaces"
+  location: "Helsinki, Finland"
+  series: "IUI '22"
+  keywords: "Human-AI interaction, crowdsourcing, prototyping, testing"

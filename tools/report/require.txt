@@ -1,0 +1,4 @@
+textblob
+pandas
+scipy
+numpy

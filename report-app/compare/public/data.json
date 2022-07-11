@@ -1,0 +1,1316 @@
+{
+  "overview": {
+    "f1": {
+      "findings": [
+        "Observed a 4.03% improvement in average F-1 score for the With-AI group"
+      ],
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.7015503875968992,
+            0.8372093023255814,
+            0.9147286821705427,
+            0.945736434108527
+          ],
+          "error_y": [
+            0.0687292010295681,
+            0.05696487773914368,
+            0.040137917850125424,
+            0.033148681167432484
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.7965116279069767,
+            0.8372093023255814
+          ],
+          "error_y": [
+            0.061280073161338024,
+            0.05696487773914368
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "type": "markers-only",
+          "marker": "x",
+          "name": "Offline",
+          "axis": "main",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.9772727272727273,
+            0.9090909090909091,
+            0.8181818181818182,
+            0.7954545454545454
+          ],
+          "error_y": [
+            0.022727272727272728,
+            0.04384025656094656,
+            0.058817876292784586,
+            0.059573211060247426
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.8238636363636364,
+            0.8333333333333335
+          ],
+          "error_y": [
+            0.05723289455129778,
+            0.055789968223516846
+          ],
+          "name": "No-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            1,
+            1,
+            0,
+            0
+          ],
+          "type": "markers-only",
+          "marker": "x",
+          "name": "Offline",
+          "axis": "main",
+          "group": "B"
+        }
+      ]
+    },
+    "effort": {
+      "findings": [
+        "Observed a 24.65% reduction in average effort (as measured by % emails read) for the With-AI group\u200b"
+      ],
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.05381252174378462,
+            0.05069044879171462,
+            0.0279658522225493,
+            0.025300398747557993
+          ],
+          "error_y": [
+            0.010898753381064592,
+            0.0067997963677191445,
+            0.00410727273230447,
+            0.004073523349285093
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.061086653999518285,
+            0.04360565472208097
+          ],
+          "error_y": [
+            0.0087693136827079,
+            0.010037680558399705
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.03403010252118422,
+            0.032877393032744014,
+            0.04626726121979285,
+            0.05249862694842555
+          ],
+          "error_y": [
+            0.008857663581907989,
+            0.00723206708282279,
+            0.00934934977846215,
+            0.007208465315510192
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.06531475572758659,
+            0.04960639188199603
+          ],
+          "error_y": [
+            0.015605208838083407,
+            0.012456783118137488
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ]
+    },
+    "preference": {
+      "findings": [
+        "Average preference Likert score of 3.67 (on 1-7 scale), slightly favor to No-AI. Median score 4.0 (on 1-7 scale), indifferent between both groups.\u200b"
+      ],
+      "series": [
+        {
+          "x": [
+            0.13953488372093023, 0.09090909090909091
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Strongly prefer No-AI",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.18604651162790697, 0.18181818181818182
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Prefer No-AI",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            0.023255813953488372, 0.1590909090909091
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Somewhat prefer No-AI",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            0.3488372093023256, 0.4318181818181818
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Indifferent",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.18604651162790697, 0.06818181818181818
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Somewhat prefer With-AI",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.046511627906976744, 0.045454545454545456
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Prefer With-AI",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.06976744186046512, 0.022727272727272728
+          ],
+          "y": [
+            "LLHH", "HHLL"
+          ],
+          "orientation": "h",
+          "name": "Strongly prefer With-AI",
+          "color": "rgb(33,102,172)"
+        }
+      ]
+    }
+  },
+  "feedback": {
+    "A": [
+      {
+        "p": 1,
+        "t": "Honestly, I didn't really feel like it helped much. Perhaps it was helpful in arranging the most relevant emails without considering date in an appropriate manner i.e. with respect to the most relevant being at the top, however, if this was the case, it would be more helpful for the system to mention this explicitly so that people know what they are working with."
+      },
+      {
+        "p": 1,
+        "t": "I was really surprised by how much time and effort was saved while using the smart search feature. The yellow group was quite demanding and I had to check almost all the emails to be sure I was leaving no stones unturned however the blue group, aided by the system functionality made it seem so easy, like a piece of cake. Personally, I still think there were some redundant results after the search but they only get in the way without creating much distraction."
+      },
+      {
+        "p": 1,
+        "t": "It will useful because it gave me less options when I searched for keywords when I was using the AI system. It was nice having it be useful and it did not feel intrusive at all."
+      },
+      {
+        "p": 1,
+        "t": "The system allowed me to find the key words to locate the email. There was a lot of emails, but it narrowed down the list to find the one I was looking for."
+      },
+      {
+        "p": 1,
+        "t": "The system gave back the relevant emails. It didn't sort it in a great order though."
+      },
+      {
+        "p": 1,
+        "t": "The system seemed to be much better and narrowing down what I was looking for than just a regular search. With the regular search I had to dig to find what I was looking for every time. The smart search seemed to put the most relevant targets first making it much quicker"
+      },
+      {
+        "p": 2,
+        "t": "I specifically found the smart AI system to bring up more irrelevant emails as well as the fact that it doesn't order those by date or relevance so the email with an exact match that had been sent more recently was lower down on the results. I also couldn't use multiple words without all the results becoming super irrelevant to both those words. I just had an easier time at the start and it was frustrating to the point where I felt I could no longer be sure I had the correct email anymore."
+      },
+      {
+        "p": 2,
+        "t": "In Yellow group, individual search requires more attention. But in Blue group, search was too easy as it highlights all required search words which make it easier to find the target mail."
+      },
+      {
+        "p": 2,
+        "t": "It highlighted the keywords that I had used.  It also looked to bring them to me in a form of relevant answers, possibly by number of mentions and date."
+      },
+      {
+        "p": 2,
+        "t": "The system filtered out emails with the keywords that I searched for and highlighted them for me so I could quickly search through the emails with the relevant search term that I was looking for. It allowed me to quickly find the emails I was interested in viewing."
+      },
+      {
+        "p": 2,
+        "t": "The system filtered out irrelevant words in emails that may contain some of the letters of the words that I searched."
+      },
+      {
+        "p": 2,
+        "t": "The system was able to help me when I was searching.  It looked like it was able to understand what I was looking for.  The system seemed to find the results that were better suited for me."
+      },
+      {
+        "p": 2,
+        "t": "honestly i don't understand how the system helped. i didn't see any indication that there was an AI assistant."
+      },
+      {
+        "p": 2,
+        "t": "the search helped a lot"
+      },
+      {
+        "p": 3,
+        "t": "The system helps me by giving many possibilities of my search so I can easily find out the correct one easily. Instruction was clear so we can solving it easily."
+      },
+      {
+        "p": 4,
+        "t": "Havivng to look at the exact number of emails that were suspected to be present made me first look for an exact email that fit the description of the task, before skimming through to see if any other email fit the category. The tasks that had exact dates or periods (like those of August and 2002) were a bit much easier since i did not have to check dates before then, making my use of the system recommendation much easier"
+      },
+      {
+        "p": 4,
+        "t": "I believe the system took the keywords I entered and tried to find the words in emails that best fit what I was looking for."
+      },
+      {
+        "p": 4,
+        "t": "I did not understand how the system helped at all. I noticed nothing different between the two tasks. Both searches seemed about the same level of effective. Nothing else popped up."
+      },
+      {
+        "p": 4,
+        "t": "I didn't really see a huge difference between using the AI system and a decent search engine. I think searches are really about finding the 1-2 words that will stand out from the rest of the email in your inbox. The ai system still seemed to bring up a number of emails, though they may have been fewer than if I hadn't been using it."
+      },
+      {
+        "p": 4,
+        "t": "I felt like the system was no different than an ordinary search engine. I almost forgot that I was using a system and not just a regular built-in search feature."
+      },
+      {
+        "p": 4,
+        "t": "I think the search system was populated based on the most likely search result based on the text I input.  It seemed intuitive and I believe I used it correctly."
+      },
+      {
+        "p": 4,
+        "t": "It took me a little bit to understand how the system was helping, and I wasnt sure it was correct at first.  I think it helped towards the end."
+      },
+      {
+        "p": 4,
+        "t": "It was easy to search through the emails with keywords or small phrases.  The highlighting was very helpful as well.  The speed of the assistant was instant which was welcomed, and it just made the entire process very easy."
+      },
+      {
+        "p": 4,
+        "t": "Sometimes the search feature didn't find what I was looking for, specially if I included more than one search term."
+      },
+      {
+        "p": 4,
+        "t": "The AI helped simplify the task and help me find the relevant emails very quickly"
+      },
+      {
+        "p": 4,
+        "t": "The blue agent was honestly pretty much useless. It flags far too many emails for me to check and it was just simply a bit more efficient to just manually read and use the search tool myself. The AI overall wasn't in the least bit helpful."
+      },
+      {
+        "p": 4,
+        "t": "The system helped by searching my inbox."
+      },
+      {
+        "p": 4,
+        "t": "The system seems hit or miss based on the keywords I entered. I needed a very specific set of unique keywords to find what I was looking for. In some of the tasks, I was given many irrelevant results due to how common the keywords were."
+      },
+      {
+        "p": 4,
+        "t": "The system wouldn't help me at all really if I included article words or similar words. It required me to use specific keywords that would link all of the in a single email. I was easily able to push together a list of keywords that would be highlighted and easily allow me to find the one that would have the most to do with the request."
+      },
+      {
+        "p": 4,
+        "t": "There wasnt a smart search that I was aware of, however the search feature made it simple to find keywords listed in the notes and sort emails from a large list into a smaller list."
+      },
+      {
+        "p": 5,
+        "t": "Assist perfectly with Good User Interface"
+      },
+      {
+        "p": 5,
+        "t": "I didn't really understand what it even did to help me. Maybe it wasn't working in this browser session. I'm using Google Chrome so I don't know if that had to do anything with it."
+      },
+      {
+        "p": 5,
+        "t": "It did not seem to be consistent.  There was one task in particular where it waded me through a bunch of emails and the one I needed was the very last option.  With the search criteria I used, it seems like it should have been top or second on the list.  Other times it worked seamlessly."
+      },
+      {
+        "p": 5,
+        "t": "It helped a lot, I mostly just used the search feature to find what I was told to find."
+      },
+      {
+        "p": 5,
+        "t": "It helped me by filtering down to an accurate degree my search query"
+      },
+      {
+        "p": 5,
+        "t": "The system did pretty well in assisting overall. I'm very used to searching through a wide range of emails however, so did not really need for the most part. However, I could see this greatly helping less savvy internet/email users when searching for contents in their inbox. Very impressive and easy to pick up on after using a few times. The blue/yellow highlights were both extremely easy on the eyes."
+      },
+      {
+        "p": 5,
+        "t": "good surveyits checking attention details for every worker"
+      },
+      {
+        "p": 5,
+        "t": "the sister didnt help at all, because if i typed anything in the search box, the hit screen would turn white!"
+      },
+      {
+        "p": 6,
+        "t": "I'm not even sure what the smart search system was doing - sometimes the emails I wanted were all the way at the bottom of the search results (suggesting low match) even though they had the exact words I searched for, while other times the results I wanted were at the very top. And other times in the middle. Not sure how it was prioritizing matches. I ended up just treating it like an unassisted search and scanning through the search results looking for key phrases, then previewing emails that looked close. It looked like _maybe_ the search assistant was pulling emails with similar words to my search terms? Which might be helpful to aviod excluding results if I slightly misremembered an exact term I was searching for. But overall, it really wasn't helpful."
+      },
+      {
+        "p": 6,
+        "t": "When the task has a proper noun, I estimated the search would be easy. However, I have found instances when the common noun search would narrow down the scope faster to desired entries. It is a challenge for the user to know when to give a proper noun vs common noun."
+      },
+      {
+        "p": 7,
+        "t": "By highlighting phrases in yellow it became easy to filter emails and choose the most relevant ones"
+      },
+      {
+        "p": 7,
+        "t": "The AI didn't work as well as I hoped I expected it to highlight everything germane and I doubt it did. I suppose I was supposed to open each email which wasn't going to happen and shouldn't happen using a system like this. The first time using it wasn't great the others better but I finished this super fast I doubt I did that well."
+      },
+      {
+        "p": 7,
+        "t": "The yellow colored AI function works properly. But the Blue colored AI power not worked correct and clear. So that I prefer Yellow colored AI power functions. During the HIT the Yellow was perfect. The Blue color shows wrong statements and also Yellow color shows correct statements.So that i like the Yellow colored Work using AI. The Yellow color was perfectly  coded,and the blue color was not developed compared to Yellow color."
+      }
+    ],
+    "B": [
+      {
+        "p": 1,
+        "t": "A lot came down to what is known as \"Google Fu\" - basically tryin to guess the right search tearms to use. Smart search basically made the engine less picky than a standard keyword search."
+      },
+      {
+        "p": 1,
+        "t": "I seemed to be able to find the email quicker with the system because it was more precise in finding the correct email that belonged to the search term.  There was only one that I really had a bit of confusion on when using the system."
+      },
+      {
+        "p": 1,
+        "t": "It helped by finding emails that contained a word that I searched for. It essentially collapses and provides relevant emails to what I am looking for. It is really helpful and reduces the amount of time spent searching through a list of emails. It sometimes provided a big list of emails, however, they were mostly relevant and had the word I was looking for."
+      },
+      {
+        "p": 1,
+        "t": "The system assist by searching for and showing result that are closely related the search item. It did show options that have related words."
+      },
+      {
+        "p": 2,
+        "t": "Because things are forwarded some search terms are harder to filter out and find the relevant email."
+      },
+      {
+        "p": 2,
+        "t": "I did not notice large differences as time wise (as I do not know exactly what I am looking for and I read most of the emails thoroughly) but it definitely helped me on reducing number of emails to read. Not sure what caused the differences. I used similar format of words when searching."
+      },
+      {
+        "p": 2,
+        "t": "I found very easy to work with the help of AI..Do you have voice assistant help with AI..If its is also designed , it would be great"
+      },
+      {
+        "p": 2,
+        "t": "I'm not even sure that it did anything beyond what the normal search would have done, but it did work."
+      },
+      {
+        "p": 2,
+        "t": "If there were dates included in what I needed to find, it was much more helpful.  Just general queries without a date felt like it wasn't as helpful."
+      },
+      {
+        "p": 2,
+        "t": "It helped me search for the information I needed. It highlighted the words I was searching. It seemed to know what I was looking for."
+      },
+      {
+        "p": 2,
+        "t": "The system seemed to identify keywords and chose the most like emails that I wanted to see."
+      },
+      {
+        "p": 2,
+        "t": "it made it easier to find the specified email because it got rid of all the ones that didnt contain the keywords"
+      },
+      {
+        "p": 3,
+        "t": "Generally speaking, the search was able to use my keywords well to find the relevant information, however, it seemed to struggle with dates. Also, it did not necessarily predict the most relevant information (for instance, it would find the proper email, but I would still have to scroll down the page to find it."
+      },
+      {
+        "p": 3,
+        "t": "I found the search very useful and the fact that it hilighted the words that I typed made it a lot easier to quickly scan the emails and find the one that I wanted."
+      },
+      {
+        "p": 3,
+        "t": "I honestly wasn't able to see any pattern as to what the AI system was good at finding.  Sometimes what I was searching for popped up towards the top of the list (or at the very top) and other times it didn't seem to help at all.  I don't understand at all what it was doing.  It seems like the search function itself was doing all the work."
+      },
+      {
+        "p": 3,
+        "t": "I really wasn't sure what the system was doing.  I thought it would narrow down my results as I typed more words, but it didn't seem to do so."
+      },
+      {
+        "p": 3,
+        "t": "It worked reasonably well, but when using words that were common in all the emails (like meeting or in the one case, pulp) then it came up with so many results that I had to do a lot of scrolling to get to the email I needed."
+      },
+      {
+        "p": 3,
+        "t": "The smart assistant seemed to order the search by relevance as opposed to just highlighting search terms. This made is easier since I would check the top result instead of going down the list of emails one by one."
+      },
+      {
+        "p": 3,
+        "t": "The system looked for the words I typed in the search bar and got rid of the ones that did not have what I searched."
+      },
+      {
+        "p": 4,
+        "t": "Frankly, I couldn't tell how the system helped.  It appeared as if it did prioritize the results in a useful way once (from top to bottom) but most (if not all) other times it was useless."
+      },
+      {
+        "p": 4,
+        "t": "I finished this task with the guidance provided by this AI. I try to do with my best as posible."
+      },
+      {
+        "p": 4,
+        "t": "I guess I never really understood what the \"system\" was doing or how AI was involved.  It just seemed like a somewhat clunky search feature.  Maybe I was not using it correctly but I did not find it very helpful.  I don't understand the system or how it assisted really."
+      },
+      {
+        "p": 4,
+        "t": "I think using the search I was able to find the relevant key words in the emails.  There were a lot of fwd's and re's so it wasn't always the easiest to find information.  But overall, through my own additions I was able to find the important things quickly."
+      },
+      {
+        "p": 4,
+        "t": "I would say the system performed to my expectations. When given a query, it was able to highlight all words that matched for all the emails I went through. It appeared to place those emails at the top of the list (with highlighted words) so I didn't have to scroll all through them."
+      },
+      {
+        "p": 4,
+        "t": "I'm not entirely sure what you mean by AI system. I think maybe you mean the system on the right that said there was 1 relevant email. The search seemed like a normal search."
+      },
+      {
+        "p": 4,
+        "t": "In one instance, the email I was looking for was buried further down the list, with unrelated October dates near or at the top. Though for the orientation email, it was shown as the only email when I searched that word."
+      },
+      {
+        "p": 4,
+        "t": "Initially I didn't understand how the system worked, but as I used it more, it seemed that the system was able to \"digest\" content and pull/decipher relevant information and relay that when I searched."
+      },
+      {
+        "p": 4,
+        "t": "It assisted me by using the keywords I put in the search engine to find the same keywords in the emails body."
+      },
+      {
+        "p": 4,
+        "t": "It was able to assist me in easily finding the relevant emails. It made it a breeze to do so."
+      },
+      {
+        "p": 4,
+        "t": "It was actually unclear to me what exactly the enhanced search function was adding compared to the run without it. Perhaps a more detailed overview of how it works and what it will attempt to do would help to identify how much more it's helping or not."
+      },
+      {
+        "p": 4,
+        "t": "Searching for words I input to help me find the email."
+      },
+      {
+        "p": 4,
+        "t": "The search function allowed me to search quickly for any word within the emails. Where it came short was mostly in the more specific searches, ones where I now the base of what I am looking for, but the words may not appear in the text of the emails."
+      },
+      {
+        "p": 4,
+        "t": "The system mostly worked well and correctly identified what I wanted to find for most use cases. Finding the ETS budget was confusing with and without the system's help."
+      },
+      {
+        "p": 4,
+        "t": "The system put what I was looking for in the first results most of the time, or what I believed to be what I was searching for. But the last one -- the ETS budget -- was the last result (if I chose correctly)."
+      },
+      {
+        "p": 4,
+        "t": "The system seemed to organize emails based on the search terms I used. It was not perfect in all cases but it did seem to make certain emails easier to locate depending on the search term I used."
+      },
+      {
+        "p": 4,
+        "t": "To tell the complete truth, there wasn't a startling difference between the normal search and the smart search. With both, it still took some time to find the proper terms that would give the the results I wanted. With either, I was able to find the email within a reasonable amount of time. If it didn't tell me which search was the smart search, I would have a difficult time deciding which I was actually using."
+      },
+      {
+        "p": 4,
+        "t": "honestly i didn't really find that i was finding things any faster or more efficiently with it vs. without it, including one task with it where i'm not confident i found the right email at all.  still having to manually eyeball emails so it really feels similar."
+      },
+      {
+        "p": 4,
+        "t": "i think the search bar was easy to use. i just entered the key word and i could find what i was looking for most of the time. i didnt really notice a difference or an improvement in using the AI assisted search versus the regular search i used in the beginning. i think they were both pretty much the same in terms of finding what i was looking for quickly and efficiently."
+      },
+      {
+        "p": 5,
+        "t": "I found it a little frustrating that if I put 4 words in the search bar that are all in the same email, the results did not include the email in the list."
+      },
+      {
+        "p": 5,
+        "t": "The system seemed to do a better job of highlighting the words that might be useful based on what I had searched for."
+      },
+      {
+        "p": 5,
+        "t": "The system was not very helpful in my opinion. I barely noticed any difference between the 2 types of tasks. I relied on my own searching skill instead of the system's assistance."
+      },
+      {
+        "p": 6,
+        "t": "It seemed very out of the way so I don't have a thorough idea of how it handled helping me. It did feel like it showed me things that were more likely to be relevant based on how important specific events are typically known for being (i.e. details on meeting dates and rooms)"
+      },
+      {
+        "p": 6,
+        "t": "yes good survey based on the infrastrcture also and style of way"
+      },
+      {
+        "p": 7,
+        "t": "The system assist me in highlighting the keywords needed for find the targeted email."
+      }
+    ]
+  },
+  "qual": {
+    "line": {
+      "confidence": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            5.790697674418604,
+            5.465116279069767,
+            5.883720930232558,
+            6.27906976744186
+          ],
+          "error_y": [
+            0.20394269800519627,
+            0.2313924272340977,
+            0.2136258264256384,
+            0.12147844052346993
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            6.255813953488372,
+            6.4186046511627906
+          ],
+          "error_y": [
+            0.12041375355037628,
+            0.11638975905454038
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            6.25,
+            6.204545454545454,
+            5.840909090909091,
+            6.068181818181818
+          ],
+          "error_y": [
+            0.12219365630257556,
+            0.17682765182768703,
+            0.20548293504394116,
+            0.16059392696862576
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            6.25,
+            6.295454545454546
+          ],
+          "error_y": [
+            0.13454566881875402,
+            0.12414419706302977
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ],
+      "effort": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.162790697674419,
+            4.232558139534884,
+            4.116279069767442,
+            3.511627906976744
+          ],
+          "error_y": [
+            0.28806113338133377,
+            0.29170368561591903,
+            0.3461691991278046,
+            0.335054404638763
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            3.5813953488372094,
+            3.4186046511627906
+          ],
+          "error_y": [
+            0.235857001319586,
+            0.2667065822968369
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            3.272727272727273,
+            3.227272727272727,
+            4.0227272727272725,
+            3.9545454545454546
+          ],
+          "error_y": [
+            0.2932713287486528,
+            0.3407857423078203,
+            0.28620251180384343,
+            0.2943343539191144
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            3.6818181818181817,
+            3.6136363636363638
+          ],
+          "error_y": [
+            0.2773567612580734,
+            0.2819741435728942
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ],
+      "mental model": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.372093023255814,
+            4.6976744186046515,
+            5.27906976744186,
+            5.348837209302325
+          ],
+          "error_y": [
+            0.2131430555793414,
+            0.25460299306240436,
+            0.24527784185881954,
+            0.23503662665546837
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.590909090909091,
+            5.363636363636363,
+            5.090909090909091,
+            5.25
+          ],
+          "error_y": [
+            0.2764892059226464,
+            0.24132060270206399,
+            0.2200763413052534,
+            0.2208119745810748
+          ],
+          "name": "With-AI",
+          "group": "B"
+        }
+      ],
+      "stickiness": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.813953488372093,
+            4.883720930232558,
+            5.232558139534884,
+            5.395348837209302
+          ],
+          "error_y": [
+            0.22138148239144642,
+            0.24274478420943976,
+            0.25088372996368946,
+            0.260205930211203
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            5.4772727272727275,
+            5.681818181818182,
+            5.4772727272727275,
+            5.545454545454546
+          ],
+          "error_y": [
+            0.18244474492566184,
+            0.21263654305558408,
+            0.19368638248652117,
+            0.21184417628518035
+          ],
+          "name": "With-AI",
+          "group": "B"
+        }
+      ],
+      "trust": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.604651162790698,
+            4.790697674418604,
+            5.162790697674419,
+            5.3023255813953485
+          ],
+          "error_y": [
+            0.22109045888928036,
+            0.2366201181779775,
+            0.2398094309807445,
+            0.24574988347515284
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            5.045454545454546,
+            5.590909090909091,
+            5.204545454545454,
+            5.363636363636363
+          ],
+          "error_y": [
+            0.19222340292667775,
+            0.21150368180908063,
+            0.19664077811561043,
+            0.20066198343770922
+          ],
+          "name": "With-AI",
+          "group": "B"
+        }
+      ],
+      "utility": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.372093023255814,
+            4.627906976744186,
+            5.3023255813953485,
+            5.534883720930233
+          ],
+          "error_y": [
+            0.24232003360545476,
+            0.2641840188339512,
+            0.25891605492992603,
+            0.2361298261665157
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            5.136363636363637,
+            5.636363636363637,
+            5.0227272727272725,
+            5.113636363636363
+          ],
+          "error_y": [
+            0.22895781227142117,
+            0.23239471482536397,
+            0.24219013978554282,
+            0.2437721293492605
+          ],
+          "name": "With-AI",
+          "group": "B"
+        }
+      ]
+    }
+  },
+  "quant": {
+    "work time": {
+      "name": "Task Work Time (s)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            106.75500000000002,
+            133.29783720930232,
+            83.008488372093,
+            49.095860465116274
+          ],
+          "error_y": [
+            21.22881124575948,
+            35.02392677082951,
+            16.734233820713264,
+            8.508201207607087
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            105.31941860465118,
+            71.6808372093023
+          ],
+          "error_y": [
+            13.191657720736885,
+            7.971192897157111
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            57.48202272727272,
+            51.755113636363646,
+            70.46827272727272,
+            71.29268181818179
+          ],
+          "error_y": [
+            8.173033647790525,
+            8.062075425942735,
+            6.609061617220348,
+            8.296492074539017
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            120.92345454545452,
+            89.47920454545454
+          ],
+          "error_y": [
+            27.307355023296292,
+            12.78551190301652
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ]
+    },
+    "opened": {
+      "name": "Items opened (count)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.534883720930233,
+            4.930232558139535,
+            2.953488372093023,
+            2.1627906976744184
+          ],
+          "error_y": [
+            0.8667276815620568,
+            0.7605990446986287,
+            0.5905808170002991,
+            0.3879843025191379
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            5.813953488372093,
+            3.604651162790698
+          ],
+          "error_y": [
+            1.0540518320375916,
+            0.7676599576000168
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            2.7045454545454546,
+            3.1136363636363638,
+            4.636363636363637,
+            4.863636363636363
+          ],
+          "error_y": [
+            0.6070233280331779,
+            0.7591693949879522,
+            1.0675350027637018,
+            0.7947973727513586
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            7.636363636363637,
+            4.2272727272727275
+          ],
+          "error_y": [
+            2.6099684714325564,
+            1.0559724616238158
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ]
+    },
+    "corrections": {
+      "name": "Corrective Label Actions (%)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.046511627906976744,
+            0.06976744186046512,
+            0.023255813953488372,
+            0.046511627906976744
+          ],
+          "error_y": [
+            0.03249479679096614,
+            0.05150394664112287,
+            0.023255813953488372,
+            0.046511627906976744
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.09302325581395349,
+            0.0
+          ],
+          "error_y": [
+            0.05582318122316085,
+            0.0
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.022727272727272728,
+            0.045454545454545456,
+            0.045454545454545456,
+            0.045454545454545456
+          ],
+          "error_y": [
+            0.022727272727272728,
+            0.045454545454545456,
+            0.031765283723714,
+            0.031765283723714
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.2727272727272727,
+            0.045454545454545456
+          ],
+          "error_y": [
+            0.2284325585116953,
+            0.045454545454545456
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ]
+    },
+    "uptake": {
+      "name": "Uptake Metric (1/#queries)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.5693689164772396,
+            0.6086677306581548,
+            0.7024891387682084,
+            0.730259288960171
+          ],
+          "error_y": [
+            0.05900014954750307,
+            0.05809232784865581,
+            0.05917397934777632,
+            0.054479353932223355
+          ],
+          "name": "With-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.5055475413339551,
+            0.5476536544850498
+          ],
+          "error_y": [
+            0.061523336038982405,
+            0.06531708739300066
+          ],
+          "name": "No-AI",
+          "group": "A"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.7625901875901875,
+            0.7526785714285715,
+            0.6191421873240055,
+            0.5336512274958204
+          ],
+          "error_y": [
+            0.056937875467731554,
+            0.056621266051479095,
+            0.06090872853238201,
+            0.05578785608161201
+          ],
+          "name": "With-AI",
+          "group": "B"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.5381931830795467,
+            0.6488505181687001
+          ],
+          "error_y": [
+            0.05981774320077428,
+            0.058957129600670885
+          ],
+          "name": "No-AI",
+          "group": "B"
+        }
+      ]
+    }
+  }
+}

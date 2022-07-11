@@ -1,0 +1,1448 @@
+{
+  "overview": {
+    "f1": {
+      "findings": [
+        "Observed a 4.03% improvement in average F-1 score for the With-AI group"
+      ],
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.7015503875968992,
+            0.8372093023255814,
+            0.9147286821705427,
+            0.945736434108527
+          ],
+          "error_y": [
+            0.0687292010295681,
+            0.05696487773914368,
+            0.040137917850125424,
+            0.033148681167432484
+          ],
+          "name": "With-AI"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.7965116279069767,
+            0.8372093023255814
+          ],
+          "error_y": [
+            0.061280073161338024,
+            0.05696487773914368
+          ],
+          "name": "No-AI"
+        },
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "type": "markers-only",
+          "axis": "main",
+          "marker": "x",
+          "name": "Offline"
+        }
+      ]
+    },
+    "effort": {
+      "findings": [
+        "Observed a 24.65% reduction in average effort (as measured by % emails read) for the With-AI group\u200b"
+      ],
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.05381252174378462,
+            0.05069044879171462,
+            0.0279658522225493,
+            0.025300398747557993
+          ],
+          "error_y": [
+            0.010898753381064592,
+            0.0067997963677191445,
+            0.00410727273230447,
+            0.004073523349285093
+          ],
+          "name": "With-AI"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.061086653999518285,
+            0.04360565472208097
+          ],
+          "error_y": [
+            0.0087693136827079,
+            0.010037680558399705
+          ],
+          "name": "No-AI"
+        }
+      ]
+    },
+    "preference": {
+      "findings": [
+        "Average preference Likert score of 3.67 (on 1-7 scale), slightly favor to No-AI. Median score 4.0 (on 1-7 scale), indifferent between both groups.\u200b"
+      ],
+      "series": [
+        {
+          "x": [
+            0.13953488372093023
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Strongly prefer No-AI",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.18604651162790697
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Prefer No-AI",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            0.023255813953488372
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Somewhat prefer No-AI",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            0.3488372093023256
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Indifferent",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.18604651162790697
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Somewhat prefer With-AI",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.046511627906976744
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Prefer With-AI",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.06976744186046512
+          ],
+          "y": [
+            "Pref."
+          ],
+          "orientation": "h",
+          "name": "Strongly prefer With-AI",
+          "color": "rgb(33,102,172)"
+        }
+      ]
+    }
+  },
+  "feedback": [
+    {
+      "p": 1,
+      "t": "Honestly, I didn't really feel like it helped much. Perhaps it was helpful in arranging the most relevant emails without considering date in an appropriate manner i.e. with respect to the most relevant being at the top, however, if this was the case, it would be more helpful for the system to mention this explicitly so that people know what they are working with."
+    },
+    {
+      "p": 1,
+      "t": "I was really surprised by how much time and effort was saved while using the smart search feature. The yellow group was quite demanding and I had to check almost all the emails to be sure I was leaving no stones unturned however the blue group, aided by the system functionality made it seem so easy, like a piece of cake. Personally, I still think there were some redundant results after the search but they only get in the way without creating much distraction."
+    },
+    {
+      "p": 1,
+      "t": "It will useful because it gave me less options when I searched for keywords when I was using the AI system. It was nice having it be useful and it did not feel intrusive at all."
+    },
+    {
+      "p": 1,
+      "t": "The system allowed me to find the key words to locate the email. There was a lot of emails, but it narrowed down the list to find the one I was looking for."
+    },
+    {
+      "p": 1,
+      "t": "The system gave back the relevant emails. It didn't sort it in a great order though."
+    },
+    {
+      "p": 1,
+      "t": "The system seemed to be much better and narrowing down what I was looking for than just a regular search. With the regular search I had to dig to find what I was looking for every time. The smart search seemed to put the most relevant targets first making it much quicker"
+    },
+    {
+      "p": 2,
+      "t": "I specifically found the smart AI system to bring up more irrelevant emails as well as the fact that it doesn't order those by date or relevance so the email with an exact match that had been sent more recently was lower down on the results. I also couldn't use multiple words without all the results becoming super irrelevant to both those words. I just had an easier time at the start and it was frustrating to the point where I felt I could no longer be sure I had the correct email anymore."
+    },
+    {
+      "p": 2,
+      "t": "In Yellow group, individual search requires more attention. But in Blue group, search was too easy as it highlights all required search words which make it easier to find the target mail."
+    },
+    {
+      "p": 2,
+      "t": "It highlighted the keywords that I had used.  It also looked to bring them to me in a form of relevant answers, possibly by number of mentions and date."
+    },
+    {
+      "p": 2,
+      "t": "The system filtered out emails with the keywords that I searched for and highlighted them for me so I could quickly search through the emails with the relevant search term that I was looking for. It allowed me to quickly find the emails I was interested in viewing."
+    },
+    {
+      "p": 2,
+      "t": "The system filtered out irrelevant words in emails that may contain some of the letters of the words that I searched."
+    },
+    {
+      "p": 2,
+      "t": "The system was able to help me when I was searching.  It looked like it was able to understand what I was looking for.  The system seemed to find the results that were better suited for me."
+    },
+    {
+      "p": 2,
+      "t": "honestly i don't understand how the system helped. i didn't see any indication that there was an AI assistant."
+    },
+    {
+      "p": 2,
+      "t": "the search helped a lot"
+    },
+    {
+      "p": 3,
+      "t": "The system helps me by giving many possibilities of my search so I can easily find out the correct one easily. Instruction was clear so we can solving it easily."
+    },
+    {
+      "p": 4,
+      "t": "Havivng to look at the exact number of emails that were suspected to be present made me first look for an exact email that fit the description of the task, before skimming through to see if any other email fit the category. The tasks that had exact dates or periods (like those of August and 2002) were a bit much easier since i did not have to check dates before then, making my use of the system recommendation much easier"
+    },
+    {
+      "p": 4,
+      "t": "I believe the system took the keywords I entered and tried to find the words in emails that best fit what I was looking for."
+    },
+    {
+      "p": 4,
+      "t": "I did not understand how the system helped at all. I noticed nothing different between the two tasks. Both searches seemed about the same level of effective. Nothing else popped up."
+    },
+    {
+      "p": 4,
+      "t": "I didn't really see a huge difference between using the AI system and a decent search engine. I think searches are really about finding the 1-2 words that will stand out from the rest of the email in your inbox. The ai system still seemed to bring up a number of emails, though they may have been fewer than if I hadn't been using it."
+    },
+    {
+      "p": 4,
+      "t": "I felt like the system was no different than an ordinary search engine. I almost forgot that I was using a system and not just a regular built-in search feature."
+    },
+    {
+      "p": 4,
+      "t": "I think the search system was populated based on the most likely search result based on the text I input.  It seemed intuitive and I believe I used it correctly."
+    },
+    {
+      "p": 4,
+      "t": "It took me a little bit to understand how the system was helping, and I wasnt sure it was correct at first.  I think it helped towards the end."
+    },
+    {
+      "p": 4,
+      "t": "It was easy to search through the emails with keywords or small phrases.  The highlighting was very helpful as well.  The speed of the assistant was instant which was welcomed, and it just made the entire process very easy."
+    },
+    {
+      "p": 4,
+      "t": "Sometimes the search feature didn't find what I was looking for, specially if I included more than one search term."
+    },
+    {
+      "p": 4,
+      "t": "The AI helped simplify the task and help me find the relevant emails very quickly"
+    },
+    {
+      "p": 4,
+      "t": "The blue agent was honestly pretty much useless. It flags far too many emails for me to check and it was just simply a bit more efficient to just manually read and use the search tool myself. The AI overall wasn't in the least bit helpful."
+    },
+    {
+      "p": 4,
+      "t": "The system helped by searching my inbox."
+    },
+    {
+      "p": 4,
+      "t": "The system seems hit or miss based on the keywords I entered. I needed a very specific set of unique keywords to find what I was looking for. In some of the tasks, I was given many irrelevant results due to how common the keywords were."
+    },
+    {
+      "p": 4,
+      "t": "The system wouldn't help me at all really if I included article words or similar words. It required me to use specific keywords that would link all of the in a single email. I was easily able to push together a list of keywords that would be highlighted and easily allow me to find the one that would have the most to do with the request."
+    },
+    {
+      "p": 4,
+      "t": "There wasnt a smart search that I was aware of, however the search feature made it simple to find keywords listed in the notes and sort emails from a large list into a smaller list."
+    },
+    {
+      "p": 5,
+      "t": "Assist perfectly with Good User Interface"
+    },
+    {
+      "p": 5,
+      "t": "I didn't really understand what it even did to help me. Maybe it wasn't working in this browser session. I'm using Google Chrome so I don't know if that had to do anything with it."
+    },
+    {
+      "p": 5,
+      "t": "It did not seem to be consistent.  There was one task in particular where it waded me through a bunch of emails and the one I needed was the very last option.  With the search criteria I used, it seems like it should have been top or second on the list.  Other times it worked seamlessly."
+    },
+    {
+      "p": 5,
+      "t": "It helped a lot, I mostly just used the search feature to find what I was told to find."
+    },
+    {
+      "p": 5,
+      "t": "It helped me by filtering down to an accurate degree my search query"
+    },
+    {
+      "p": 5,
+      "t": "The system did pretty well in assisting overall. I'm very used to searching through a wide range of emails however, so did not really need for the most part. However, I could see this greatly helping less savvy internet/email users when searching for contents in their inbox. Very impressive and easy to pick up on after using a few times. The blue/yellow highlights were both extremely easy on the eyes."
+    },
+    {
+      "p": 5,
+      "t": "good surveyits checking attention details for every worker"
+    },
+    {
+      "p": 5,
+      "t": "the sister didnt help at all, because if i typed anything in the search box, the hit screen would turn white!"
+    },
+    {
+      "p": 6,
+      "t": "I'm not even sure what the smart search system was doing - sometimes the emails I wanted were all the way at the bottom of the search results (suggesting low match) even though they had the exact words I searched for, while other times the results I wanted were at the very top. And other times in the middle. Not sure how it was prioritizing matches. I ended up just treating it like an unassisted search and scanning through the search results looking for key phrases, then previewing emails that looked close. It looked like _maybe_ the search assistant was pulling emails with similar words to my search terms? Which might be helpful to aviod excluding results if I slightly misremembered an exact term I was searching for. But overall, it really wasn't helpful."
+    },
+    {
+      "p": 6,
+      "t": "When the task has a proper noun, I estimated the search would be easy. However, I have found instances when the common noun search would narrow down the scope faster to desired entries. It is a challenge for the user to know when to give a proper noun vs common noun."
+    },
+    {
+      "p": 7,
+      "t": "By highlighting phrases in yellow it became easy to filter emails and choose the most relevant ones"
+    },
+    {
+      "p": 7,
+      "t": "The AI didn't work as well as I hoped I expected it to highlight everything germane and I doubt it did. I suppose I was supposed to open each email which wasn't going to happen and shouldn't happen using a system like this. The first time using it wasn't great the others better but I finished this super fast I doubt I did that well."
+    },
+    {
+      "p": 7,
+      "t": "The yellow colored AI function works properly. But the Blue colored AI power not worked correct and clear. So that I prefer Yellow colored AI power functions. During the HIT the Yellow was perfect. The Blue color shows wrong statements and also Yellow color shows correct statements.So that i like the Yellow colored Work using AI. The Yellow color was perfectly  coded,and the blue color was not developed compared to Yellow color."
+    }
+  ],
+  "qual": {
+    "line": {
+      "confidence": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            5.790697674418604,
+            5.465116279069767,
+            5.883720930232558,
+            6.27906976744186
+          ],
+          "error_y": [
+            0.20394269800519627,
+            0.2313924272340977,
+            0.2136258264256384,
+            0.12147844052346993
+          ],
+          "name": "With-AI",
+          "raw": "2,5.0|2,6.0|2,6.0|2,6.0|2,7.0|2,2.0|2,5.0|2,4.0|2,6.0|2,7.0|2,7.0|2,6.0|2,7.0|2,4.0|2,7.0|2,5.0|2,3.0|2,5.0|2,7.0|2,6.0|2,5.0|2,6.0|2,4.0|2,5.0|2,5.0|2,7.0|2,6.0|2,7.0|2,6.0|2,7.0|2,6.0|2,7.0|2,6.0|2,5.0|2,7.0|2,6.0|2,6.0|2,7.0|2,7.0|2,7.0|2,2.0|2,7.0|2,7.0|3,6.0|3,6.0|3,6.0|3,2.0|3,6.0|3,2.0|3,5.0|3,7.0|3,6.0|3,7.0|3,7.0|3,6.0|3,5.0|3,4.0|3,7.0|3,7.0|3,5.0|3,5.0|3,7.0|3,6.0|3,4.0|3,6.0|3,5.0|3,5.0|3,5.0|3,7.0|3,6.0|3,6.0|3,5.0|3,7.0|3,4.0|3,7.0|3,5.0|3,6.0|3,3.0|3,6.0|3,7.0|3,1.0|3,7.0|3,7.0|3,5.0|3,3.0|3,6.0|4,6.0|4,5.0|4,4.0|4,6.0|4,7.0|4,5.0|4,6.0|4,6.0|4,2.0|4,7.0|4,5.0|4,5.0|4,7.0|4,6.0|4,7.0|4,7.0|4,3.0|4,4.0|4,7.0|4,6.0|4,7.0|4,6.0|4,7.0|4,6.0|4,4.0|4,7.0|4,7.0|4,7.0|4,2.0|4,7.0|4,7.0|4,7.0|4,5.0|4,5.0|4,7.0|4,4.0|4,7.0|4,7.0|4,7.0|4,7.0|4,6.0|4,7.0|4,6.0|5,6.0|5,7.0|5,6.0|5,6.0|5,7.0|5,5.0|5,5.0|5,5.0|5,6.0|5,7.0|5,7.0|5,6.0|5,7.0|5,4.0|5,7.0|5,7.0|5,5.0|5,5.0|5,7.0|5,6.0|5,7.0|5,6.0|5,6.0|5,6.0|5,6.0|5,7.0|5,6.0|5,7.0|5,6.0|5,7.0|5,7.0|5,7.0|5,6.0|5,7.0|5,5.0|5,6.0|5,6.0|5,7.0|5,7.0|5,7.0|5,7.0|5,7.0|5,6.0"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            6.255813953488372,
+            6.4186046511627906
+          ],
+          "error_y": [
+            0.12041375355037628,
+            0.11638975905454038
+          ],
+          "name": "No-AI",
+          "raw": "0,7.0|0,7.0|0,7.0|0,6.0|0,7.0|0,7.0|0,4.0|0,5.0|0,6.0|0,7.0|0,7.0|0,6.0|0,7.0|0,6.0|0,7.0|0,6.0|0,5.0|0,5.0|0,6.0|0,5.0|0,7.0|0,6.0|0,6.0|0,6.0|0,5.0|0,7.0|0,5.0|0,6.0|0,6.0|0,7.0|0,7.0|0,6.0|0,7.0|0,7.0|0,6.0|0,6.0|0,6.0|0,7.0|0,6.0|0,6.0|0,7.0|0,7.0|0,7.0|1,7.0|1,6.0|1,6.0|1,6.0|1,7.0|1,6.0|1,4.0|1,7.0|1,7.0|1,7.0|1,7.0|1,6.0|1,7.0|1,6.0|1,7.0|1,7.0|1,5.0|1,6.0|1,7.0|1,6.0|1,6.0|1,6.0|1,5.0|1,5.0|1,5.0|1,7.0|1,6.0|1,7.0|1,6.0|1,7.0|1,7.0|1,7.0|1,7.0|1,7.0|1,6.0|1,6.0|1,7.0|1,7.0|1,7.0|1,7.0|1,7.0|1,7.0|1,7.0"
+        }
+      ],
+      "effort": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.162790697674419,
+            4.232558139534884,
+            4.116279069767442,
+            3.511627906976744
+          ],
+          "error_y": [
+            0.28806113338133377,
+            0.29170368561591903,
+            0.3461691991278046,
+            0.335054404638763
+          ],
+          "name": "With-AI",
+          "raw": "2,5.0|2,5.0|2,4.0|2,7.0|2,1.0|2,5.0|2,5.0|2,6.0|2,5.0|2,1.0|2,6.0|2,5.0|2,1.0|2,4.0|2,1.0|2,6.0|2,6.0|2,3.0|2,1.0|2,2.0|2,6.0|2,2.0|2,6.0|2,3.0|2,2.0|2,6.0|2,7.0|2,7.0|2,5.0|2,4.0|2,5.0|2,2.0|2,6.0|2,5.0|2,4.0|2,6.0|2,4.0|2,1.0|2,2.0|2,4.0|2,5.0|2,3.0|2,5.0|3,5.0|3,5.0|3,4.0|3,2.0|3,3.0|3,7.0|3,5.0|3,6.0|3,3.0|3,1.0|3,6.0|3,2.0|3,6.0|3,4.0|3,1.0|3,6.0|3,6.0|3,3.0|3,1.0|3,2.0|3,5.0|3,5.0|3,4.0|3,6.0|3,4.0|3,7.0|3,7.0|3,6.0|3,3.0|3,1.0|3,6.0|3,2.0|3,6.0|3,4.0|3,6.0|3,6.0|3,2.0|3,5.0|3,3.0|3,2.0|3,2.0|3,5.0|3,7.0|4,2.0|4,7.0|4,4.0|4,4.0|4,1.0|4,5.0|4,6.0|4,6.0|4,6.0|4,1.0|4,7.0|4,5.0|4,1.0|4,3.0|4,2.0|4,6.0|4,6.0|4,4.0|4,1.0|4,2.0|4,7.0|4,3.0|4,7.0|4,6.0|4,4.0|4,7.0|4,7.0|4,6.0|4,6.0|4,1.0|4,7.0|4,2.0|4,6.0|4,6.0|4,1.0|4,4.0|4,1.0|4,1.0|4,2.0|4,2.0|4,2.0|4,3.0|4,7.0|5,2.0|5,2.0|5,4.0|5,4.0|5,1.0|5,5.0|5,5.0|5,5.0|5,2.0|5,1.0|5,3.0|5,2.0|5,1.0|5,4.0|5,1.0|5,3.0|5,6.0|5,2.0|5,5.0|5,2.0|5,7.0|5,2.0|5,7.0|5,6.0|5,2.0|5,7.0|5,7.0|5,7.0|5,2.0|5,3.0|5,7.0|5,2.0|5,5.0|5,1.0|5,5.0|5,6.0|5,2.0|5,1.0|5,1.0|5,1.0|5,2.0|5,1.0|5,7.0"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            3.5813953488372094,
+            3.4186046511627906
+          ],
+          "error_y": [
+            0.235857001319586,
+            0.2667065822968369
+          ],
+          "name": "No-AI",
+          "raw": "0,2.0|0,2.0|0,4.0|0,6.0|0,2.0|0,1.0|0,5.0|0,4.0|0,5.0|0,3.0|0,1.0|0,2.0|0,3.0|0,3.0|0,3.0|0,3.0|0,4.0|0,4.0|0,4.0|0,5.0|0,7.0|0,4.0|0,5.0|0,3.0|0,2.0|0,5.0|0,6.0|0,6.0|0,2.0|0,5.0|0,1.0|0,6.0|0,3.0|0,3.0|0,3.0|0,6.0|0,4.0|0,3.0|0,4.0|0,2.0|0,2.0|0,2.0|0,4.0|1,2.0|1,5.0|1,4.0|1,6.0|1,1.0|1,5.0|1,5.0|1,4.0|1,2.0|1,1.0|1,2.0|1,2.0|1,1.0|1,4.0|1,4.0|1,2.0|1,5.0|1,2.0|1,1.0|1,3.0|1,6.0|1,5.0|1,5.0|1,3.0|1,2.0|1,4.0|1,6.0|1,6.0|1,3.0|1,5.0|1,1.0|1,4.0|1,3.0|1,5.0|1,6.0|1,6.0|1,2.0|1,1.0|1,3.0|1,1.0|1,1.0|1,5.0|1,3.0"
+        }
+      ],
+      "mental model": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.372093023255814,
+            4.6976744186046515,
+            5.27906976744186,
+            5.348837209302325
+          ],
+          "error_y": [
+            0.2131430555793414,
+            0.25460299306240436,
+            0.24527784185881954,
+            0.23503662665546837
+          ],
+          "name": "With-AI",
+          "raw": "2,4.0|2,3.0|2,4.0|2,4.0|2,2.0|2,3.0|2,2.0|2,5.0|2,5.0|2,7.0|2,4.0|2,6.0|2,7.0|2,6.0|2,7.0|2,5.0|2,4.0|2,4.0|2,4.0|2,3.0|2,5.0|2,5.0|2,3.0|2,6.0|2,2.0|2,4.0|2,6.0|2,6.0|2,2.0|2,4.0|2,4.0|2,4.0|2,5.0|2,3.0|2,6.0|2,6.0|2,5.0|2,5.0|2,4.0|2,2.0|2,4.0|2,4.0|2,4.0|3,3.0|3,3.0|3,4.0|3,7.0|3,2.0|3,1.0|3,4.0|3,2.0|3,6.0|3,5.0|3,2.0|3,7.0|3,6.0|3,6.0|3,7.0|3,5.0|3,5.0|3,4.0|3,6.0|3,6.0|3,5.0|3,6.0|3,5.0|3,6.0|3,2.0|3,5.0|3,6.0|3,6.0|3,3.0|3,7.0|3,5.0|3,6.0|3,6.0|3,6.0|3,3.0|3,6.0|3,5.0|3,3.0|3,5.0|3,5.0|3,5.0|3,1.0|3,4.0|4,4.0|4,4.0|4,4.0|4,4.0|4,5.0|4,2.0|4,4.0|4,4.0|4,5.0|4,6.0|4,3.0|4,7.0|4,7.0|4,7.0|4,7.0|4,6.0|4,5.0|4,5.0|4,7.0|4,6.0|4,7.0|4,6.0|4,6.0|4,6.0|4,2.0|4,6.0|4,6.0|4,7.0|4,2.0|4,7.0|4,7.0|4,6.0|4,6.0|4,5.0|4,7.0|4,4.0|4,6.0|4,7.0|4,6.0|4,5.0|4,6.0|4,1.0|4,4.0|5,4.0|5,6.0|5,5.0|5,4.0|5,5.0|5,2.0|5,4.0|5,4.0|5,6.0|5,6.0|5,3.0|5,7.0|5,7.0|5,6.0|5,7.0|5,5.0|5,6.0|5,5.0|5,5.0|5,6.0|5,7.0|5,6.0|5,7.0|5,6.0|5,2.0|5,7.0|5,6.0|5,6.0|5,2.0|5,7.0|5,7.0|5,6.0|5,6.0|5,6.0|5,6.0|5,6.0|5,5.0|5,7.0|5,6.0|5,5.0|5,6.0|5,1.0|5,4.0"
+        }
+      ],
+      "stickiness": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.813953488372093,
+            4.883720930232558,
+            5.232558139534884,
+            5.395348837209302
+          ],
+          "error_y": [
+            0.22138148239144642,
+            0.24274478420943976,
+            0.25088372996368946,
+            0.260205930211203
+          ],
+          "name": "With-AI",
+          "raw": "2,4.0|2,4.0|2,5.0|2,3.0|2,4.0|2,2.0|2,4.0|2,5.0|2,6.0|2,5.0|2,3.0|2,7.0|2,7.0|2,6.0|2,7.0|2,5.0|2,4.0|2,4.0|2,5.0|2,4.0|2,5.0|2,5.0|2,4.0|2,6.0|2,4.0|2,4.0|2,6.0|2,6.0|2,1.0|2,7.0|2,6.0|2,6.0|2,7.0|2,5.0|2,7.0|2,6.0|2,5.0|2,5.0|2,5.0|2,2.0|2,3.0|2,4.0|2,4.0|3,2.0|3,3.0|3,4.0|3,5.0|3,4.0|3,1.0|3,4.0|3,4.0|3,6.0|3,5.0|3,3.0|3,7.0|3,7.0|3,7.0|3,7.0|3,5.0|3,5.0|3,4.0|3,6.0|3,6.0|3,6.0|3,6.0|3,5.0|3,6.0|3,2.0|3,5.0|3,7.0|3,6.0|3,3.0|3,7.0|3,4.0|3,6.0|3,6.0|3,6.0|3,5.0|3,6.0|3,6.0|3,4.0|3,5.0|3,4.0|3,5.0|3,1.0|3,4.0|4,4.0|4,4.0|4,5.0|4,3.0|4,5.0|4,2.0|4,4.0|4,4.0|4,6.0|4,6.0|4,2.0|4,7.0|4,7.0|4,7.0|4,7.0|4,5.0|4,5.0|4,5.0|4,7.0|4,6.0|4,7.0|4,6.0|4,6.0|4,6.0|4,2.0|4,6.0|4,6.0|4,6.0|4,2.0|4,7.0|4,6.0|4,7.0|4,6.0|4,5.0|4,7.0|4,4.0|4,6.0|4,7.0|4,6.0|4,5.0|4,6.0|4,1.0|4,4.0|5,4.0|5,6.0|5,5.0|5,3.0|5,6.0|5,2.0|5,4.0|5,3.0|5,6.0|5,6.0|5,2.0|5,7.0|5,7.0|5,7.0|5,7.0|5,5.0|5,5.0|5,5.0|5,7.0|5,6.0|5,7.0|5,6.0|5,7.0|5,6.0|5,2.0|5,7.0|5,6.0|5,6.0|5,2.0|5,7.0|5,7.0|5,7.0|5,7.0|5,6.0|5,5.0|5,6.0|5,6.0|5,7.0|5,6.0|5,5.0|5,6.0|5,1.0|5,4.0"
+        }
+      ],
+      "trust": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.604651162790698,
+            4.790697674418604,
+            5.162790697674419,
+            5.3023255813953485
+          ],
+          "error_y": [
+            0.22109045888928036,
+            0.2366201181779775,
+            0.2398094309807445,
+            0.24574988347515284
+          ],
+          "name": "With-AI",
+          "raw": "2,4.0|2,4.0|2,4.0|2,2.0|2,4.0|2,2.0|2,2.0|2,6.0|2,6.0|2,4.0|2,4.0|2,6.0|2,7.0|2,6.0|2,7.0|2,5.0|2,5.0|2,4.0|2,4.0|2,4.0|2,6.0|2,5.0|2,4.0|2,6.0|2,4.0|2,4.0|2,7.0|2,6.0|2,1.0|2,4.0|2,5.0|2,6.0|2,6.0|2,5.0|2,4.0|2,6.0|2,6.0|2,5.0|2,5.0|2,2.0|2,3.0|2,4.0|2,4.0|3,3.0|3,3.0|3,4.0|3,3.0|3,4.0|3,1.0|3,4.0|3,3.0|3,6.0|3,5.0|3,3.0|3,6.0|3,7.0|3,6.0|3,7.0|3,5.0|3,6.0|3,4.0|3,5.0|3,6.0|3,7.0|3,6.0|3,5.0|3,6.0|3,2.0|3,5.0|3,7.0|3,6.0|3,4.0|3,7.0|3,4.0|3,6.0|3,5.0|3,6.0|3,4.0|3,6.0|3,6.0|3,4.0|3,5.0|3,4.0|3,5.0|3,1.0|3,4.0|4,4.0|4,4.0|4,4.0|4,2.0|4,5.0|4,2.0|4,4.0|4,4.0|4,6.0|4,6.0|4,3.0|4,6.0|4,7.0|4,7.0|4,7.0|4,5.0|4,5.0|4,5.0|4,6.0|4,6.0|4,7.0|4,6.0|4,6.0|4,6.0|4,2.0|4,6.0|4,7.0|4,6.0|4,3.0|4,7.0|4,6.0|4,7.0|4,5.0|4,5.0|4,6.0|4,4.0|4,6.0|4,7.0|4,6.0|4,5.0|4,6.0|4,1.0|4,4.0|5,4.0|5,5.0|5,5.0|5,2.0|5,6.0|5,2.0|5,5.0|5,3.0|5,6.0|5,6.0|5,3.0|5,6.0|5,7.0|5,6.0|5,7.0|5,5.0|5,5.0|5,5.0|5,5.0|5,6.0|5,6.0|5,6.0|5,7.0|5,6.0|5,2.0|5,7.0|5,7.0|5,7.0|5,3.0|5,7.0|5,7.0|5,7.0|5,6.0|5,6.0|5,4.0|5,6.0|5,6.0|5,7.0|5,6.0|5,5.0|5,6.0|5,1.0|5,4.0"
+        }
+      ],
+      "utility": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.372093023255814,
+            4.627906976744186,
+            5.3023255813953485,
+            5.534883720930233
+          ],
+          "error_y": [
+            0.24232003360545476,
+            0.2641840188339512,
+            0.25891605492992603,
+            0.2361298261665157
+          ],
+          "name": "With-AI",
+          "raw": "2,4.0|2,4.0|2,4.0|2,2.0|2,4.0|2,2.0|2,2.0|2,4.0|2,5.0|2,4.0|2,3.0|2,6.0|2,7.0|2,5.0|2,7.0|2,3.0|2,4.0|2,4.0|2,5.0|2,4.0|2,6.0|2,5.0|2,3.0|2,6.0|2,2.0|2,4.0|2,6.0|2,7.0|2,1.0|2,4.0|2,5.0|2,6.0|2,7.0|2,4.0|2,7.0|2,6.0|2,5.0|2,5.0|2,4.0|2,2.0|2,2.0|2,4.0|2,4.0|3,2.0|3,3.0|3,4.0|3,2.0|3,4.0|3,1.0|3,4.0|3,2.0|3,6.0|3,5.0|3,3.0|3,7.0|3,5.0|3,6.0|3,7.0|3,5.0|3,5.0|3,4.0|3,6.0|3,6.0|3,6.0|3,6.0|3,6.0|3,5.0|3,2.0|3,4.0|3,7.0|3,7.0|3,4.0|3,7.0|3,4.0|3,6.0|3,5.0|3,6.0|3,2.0|3,6.0|3,6.0|3,3.0|3,5.0|3,5.0|3,6.0|3,1.0|3,3.0|4,5.0|4,4.0|4,4.0|4,5.0|4,5.0|4,2.0|4,4.0|4,4.0|4,4.0|4,6.0|4,1.0|4,6.0|4,7.0|4,7.0|4,7.0|4,6.0|4,4.0|4,5.0|4,7.0|4,6.0|4,7.0|4,6.0|4,7.0|4,6.0|4,2.0|4,6.0|4,7.0|4,6.0|4,3.0|4,7.0|4,7.0|4,7.0|4,5.0|4,5.0|4,6.0|4,4.0|4,6.0|4,7.0|4,7.0|4,6.0|4,7.0|4,1.0|4,4.0|5,5.0|5,6.0|5,5.0|5,5.0|5,6.0|5,2.0|5,5.0|5,3.0|5,6.0|5,6.0|5,1.0|5,6.0|5,7.0|5,6.0|5,7.0|5,6.0|5,6.0|5,6.0|5,5.0|5,6.0|5,6.0|5,6.0|5,7.0|5,6.0|5,4.0|5,7.0|5,7.0|5,7.0|5,4.0|5,7.0|5,7.0|5,7.0|5,6.0|5,7.0|5,4.0|5,6.0|5,5.0|5,7.0|5,6.0|5,5.0|5,7.0|5,1.0|5,4.0"
+        }
+      ]
+    },
+    "bar": {
+      "confidence": [
+        {
+          "x": [
+            -0.023255813953488372,
+            -0.046511627906976744,
+            -0.023255813953488372,
+            0
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "3 - Somewhat Disagree",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            -0.046511627906976744,
+            -0.046511627906976744,
+            -0.046511627906976744,
+            0
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "2 - Disagree",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            0,
+            -0.023255813953488372,
+            0,
+            0
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "1 - Strongly Disagree",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.06976744186046512,
+            0.06976744186046512,
+            0.09302325581395349,
+            0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "4 - Neutral",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.18604651162790697,
+            0.23255813953488372,
+            0.13953488372093023,
+            0.13953488372093023
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "5 - Somewhat Agree",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.3023255813953488,
+            0.3023255813953488,
+            0.23255813953488372,
+            0.37209302325581395
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "6 - Agree",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.37209302325581395,
+            0.27906976744186046,
+            0.46511627906976744,
+            0.46511627906976744
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "7 - Strongly Agree",
+          "color": "rgb(33,102,172)"
+        }
+      ],
+      "effort": [
+        {
+          "x": [
+            -0.06976744186046512,
+            -0.11627906976744186,
+            -0.06976744186046512,
+            -0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "3 - Somewhat Disagree",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            -0.11627906976744186,
+            -0.16279069767441862,
+            -0.16279069767441862,
+            -0.27906976744186046
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "2 - Disagree",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            -0.13953488372093023,
+            -0.09302325581395349,
+            -0.18604651162790697,
+            -0.20930232558139536
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "1 - Strongly Disagree",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.13953488372093023,
+            0.11627906976744186,
+            0.11627906976744186,
+            0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "4 - Neutral",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.2558139534883721,
+            0.16279069767441862,
+            0.046511627906976744,
+            0.13953488372093023
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "5 - Somewhat Agree",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.20930232558139536,
+            0.2558139534883721,
+            0.23255813953488372,
+            0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "6 - Agree",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.06976744186046512,
+            0.09302325581395349,
+            0.18604651162790697,
+            0.16279069767441862
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "7 - Strongly Agree",
+          "color": "rgb(33,102,172)"
+        }
+      ],
+      "mental model": [
+        {
+          "x": [
+            -0.11627906976744186,
+            -0.11627906976744186,
+            -0.023255813953488372,
+            -0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "3 - Somewhat Disagree",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            -0.11627906976744186,
+            -0.09302325581395349,
+            -0.06976744186046512,
+            -0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "2 - Disagree",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            0,
+            -0.046511627906976744,
+            -0.023255813953488372,
+            -0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "1 - Strongly Disagree",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.3488372093023256,
+            0.09302325581395349,
+            0.18604651162790697,
+            0.11627906976744186
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "4 - Neutral",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.18604651162790697,
+            0.2558139534883721,
+            0.13953488372093023,
+            0.16279069767441862
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "5 - Somewhat Agree",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.16279069767441862,
+            0.3023255813953488,
+            0.3023255813953488,
+            0.3953488372093023
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "6 - Agree",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.06976744186046512,
+            0.09302325581395349,
+            0.2558139534883721,
+            0.20930232558139536
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "7 - Strongly Agree",
+          "color": "rgb(33,102,172)"
+        }
+      ],
+      "stickiness": [
+        {
+          "x": [
+            -0.06976744186046512,
+            -0.06976744186046512,
+            -0.023255813953488372,
+            -0.046511627906976744
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "3 - Somewhat Disagree",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            -0.046511627906976744,
+            -0.046511627906976744,
+            -0.09302325581395349,
+            -0.09302325581395349
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "2 - Disagree",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            -0.023255813953488372,
+            -0.046511627906976744,
+            -0.023255813953488372,
+            -0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "1 - Strongly Disagree",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.27906976744186046,
+            0.20930232558139536,
+            0.13953488372093023,
+            0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "4 - Neutral",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.2558139534883721,
+            0.20930232558139536,
+            0.16279069767441862,
+            0.13953488372093023
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "5 - Somewhat Agree",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.18604651162790697,
+            0.27906976744186046,
+            0.32558139534883723,
+            0.32558139534883723
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "6 - Agree",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.13953488372093023,
+            0.13953488372093023,
+            0.23255813953488372,
+            0.3023255813953488
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "7 - Strongly Agree",
+          "color": "rgb(33,102,172)"
+        }
+      ],
+      "trust": [
+        {
+          "x": [
+            -0.023255813953488372,
+            -0.11627906976744186,
+            -0.046511627906976744,
+            -0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "3 - Somewhat Disagree",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            -0.09302325581395349,
+            -0.023255813953488372,
+            -0.06976744186046512,
+            -0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "2 - Disagree",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            -0.023255813953488372,
+            -0.046511627906976744,
+            -0.023255813953488372,
+            -0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "1 - Strongly Disagree",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.37209302325581395,
+            0.23255813953488372,
+            0.16279069767441862,
+            0.06976744186046512
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "4 - Neutral",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.16279069767441862,
+            0.18604651162790697,
+            0.16279069767441862,
+            0.18604651162790697
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "5 - Somewhat Agree",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.2558139534883721,
+            0.27906976744186046,
+            0.3488372093023256,
+            0.3488372093023256
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "6 - Agree",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.06976744186046512,
+            0.11627906976744186,
+            0.18604651162790697,
+            0.23255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "7 - Strongly Agree",
+          "color": "rgb(33,102,172)"
+        }
+      ],
+      "utility": [
+        {
+          "x": [
+            -0.06976744186046512,
+            -0.09302325581395349,
+            -0.023255813953488372,
+            -0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "3 - Somewhat Disagree",
+          "color": "rgb(244,165,130)"
+        },
+        {
+          "x": [
+            -0.13953488372093023,
+            -0.11627906976744186,
+            -0.046511627906976744,
+            -0.023255813953488372
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "2 - Disagree",
+          "color": "rgb(214,96,77)"
+        },
+        {
+          "x": [
+            -0.023255813953488372,
+            -0.046511627906976744,
+            -0.046511627906976744,
+            -0.046511627906976744
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "1 - Strongly Disagree",
+          "color": "rgb(128,24,43)"
+        },
+        {
+          "x": [
+            0.3488372093023256,
+            0.16279069767441862,
+            0.18604651162790697,
+            0.09302325581395349
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "4 - Neutral",
+          "color": "rgb(247,247,247)"
+        },
+        {
+          "x": [
+            0.16279069767441862,
+            0.18604651162790697,
+            0.13953488372093023,
+            0.16279069767441862
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "5 - Somewhat Agree",
+          "color": "rgb(146,197,222)"
+        },
+        {
+          "x": [
+            0.13953488372093023,
+            0.27906976744186046,
+            0.2558139534883721,
+            0.37209302325581395
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "6 - Agree",
+          "color": "rgb(67,147,195)"
+        },
+        {
+          "x": [
+            0.11627906976744186,
+            0.11627906976744186,
+            0.3023255813953488,
+            0.27906976744186046
+          ],
+          "y": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "orientation": "h",
+          "name": "7 - Strongly Agree",
+          "color": "rgb(33,102,172)"
+        }
+      ]
+    }
+  },
+  "quant": {
+    "work time": {
+      "name": "Task Work Time (s)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            106.75500000000002,
+            133.29783720930232,
+            83.008488372093,
+            49.095860465116274
+          ],
+          "error_y": [
+            21.22881124575948,
+            35.02392677082951,
+            16.734233820713264,
+            8.508201207607087
+          ],
+          "name": "With-AI",
+          "raw": "2,61.971|2,106.875|2,50.434|2,64.648|2,28.918|2,65.704|2,146.836|2,355.657|2,70.46|2,46.687|2,27.58|2,113.988|2,18.294|2,55.671|2,41.165|2,95.107|2,194.765|2,35.566|2,29.209|2,38.778|2,41.602|2,28.413|2,175.217|2,55.036|2,42.16|2,174.792|2,20.315|2,133.235|2,121.323|2,127.696|2,394.878|2,52.1|2,31.31|2,259.435|2,61.478|2,12.814|2,91.946|2,818.363|2,22.214|2,44.51|2,103.917|2,21.955|2,107.443|3,92.11|3,167.542|3,62.972|3,33.754|3,119.982|3,72.289|3,48.551|3,379.908|3,82.488|3,48.387|3,39.8|3,54.368|3,75.209|3,32.169|3,20.588|3,82.569|3,188.973|3,27.885|3,18.938|3,32.612|3,19.623|3,85.946|3,240.38|3,16.541|3,63.552|3,169.638|3,31.989|3,97.061|3,113.12|3,101.75|3,763.016|3,71.798|3,51.587|3,164.109|3,137.757|3,8.319|3,62.014|3,369.711|3,34.262|3,26.736|3,37.759|3,45.472|3,1338.573|4,32.945|4,322.029|4,122.446|4,25.279|4,20.438|4,91.083|4,20.068|4,394.643|4,443.951|4,23.448|4,70.903|4,104.02|4,33.003|4,26.196|4,57.588|4,20.173|4,172.201|4,101.249|4,15.372|4,14.441|4,11.158|4,26.25|4,37.116|4,11.673|4,59.917|4,23.642|4,37.752|4,50.081|4,247.097|4,38.575|4,52.062|4,65.672|4,26.949|4,197.441|4,29.358|4,55.274|4,17.463|4,18.292|4,22.583|4,20.275|4,24.78|4,22.355|4,362.124|5,27.779|5,39.937|5,19.127|5,21.78|5,20.014|5,53.927|5,17.308|5,334.133|5,42.538|5,25.797|5,11.387|5,48.385|5,20.332|5,77.03|5,30.669|5,18.781|5,61.847|5,21.833|5,46.756|5,25.926|5,61.328|5,19.244|5,66.692|5,52.444|5,20.783|5,59.262|5,16.335|5,76.979|5,25.244|5,213.139|5,70.502|5,32.998|5,27.576|5,83.639|5,62.744|5,9.708|5,38.082|5,25.256|5,21.717|5,33.772|5,40.509|5,15.695|5,72.188"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            105.31941860465118,
+            71.6808372093023
+          ],
+          "error_y": [
+            13.191657720736885,
+            7.971192897157111
+          ],
+          "name": "No-AI",
+          "raw": "0,43.696|0,74.266|0,58.905|0,9.226|0,170.963|0,26.539|0,74.186|0,172.45|0,102.007|0,56.164|0,39.617|0,43.675|0,45.377|0,130.396|0,69.808|0,87.33|0,183.668|0,182.525|0,47.166|0,114.712|0,106.687|0,45.335|0,124.343|0,45.232|0,28.406|0,192.738|0,43.016|0,144.47|0,37.818|0,293.574|0,155.417|0,251.321|0,74.467|0,141.219|0,111.023|0,24.226|0,160.71|0,475.22|0,97.812|0,66.604|0,33.322|0,39.238|0,103.861|1,38.346|1,169.949|1,77.157|1,18.557|1,35.435|1,63.802|1,45.919|1,159.2|1,72.199|1,59.728|1,24.945|1,38.695|1,19.867|1,33.588|1,38.077|1,71.972|1,151.558|1,44.276|1,23.243|1,54.585|1,33.932|1,60.393|1,115.192|1,54.497|1,78.276|1,81.88|1,28.319|1,85.585|1,72.3|1,184.34|1,203.6|1,98.756|1,41.69|1,236.413|1,39.388|1,67.204|1,63.202|1,60.912|1,38.315|1,20.182|1,22.678|1,95.528|1,58.596"
+        }
+      ]
+    },
+    "opened": {
+      "name": "Items opened (count)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            4.534883720930233,
+            4.930232558139535,
+            2.953488372093023,
+            2.1627906976744184
+          ],
+          "error_y": [
+            0.8667276815620568,
+            0.7605990446986287,
+            0.5905808170002991,
+            0.3879843025191379
+          ],
+          "name": "With-AI",
+          "raw": "2,1|2,1|2,1|2,3|2,2|2,8|2,1|2,11|2,1|2,1|2,1|2,7|2,1|2,1|2,1|2,5|2,11|2,1|2,2|2,1|2,1|2,1|2,21|2,1|2,1|2,2|2,1|2,14|2,2|2,19|2,13|2,3|2,1|2,20|2,6|2,1|2,11|2,1|2,1|2,8|2,4|2,1|2,1|3,9|3,3|3,2|3,1|3,8|3,6|3,1|3,14|3,1|3,1|3,1|3,2|3,1|3,1|3,1|3,7|3,9|3,1|3,1|3,4|3,2|3,8|3,18|3,1|3,4|3,6|3,3|3,7|3,3|3,19|3,8|3,3|3,1|3,12|3,12|3,1|3,2|3,16|3,5|3,1|3,1|3,1|3,4|4,1|4,9|4,5|4,1|4,1|4,1|4,1|4,17|4,12|4,1|4,3|4,9|4,1|4,1|4,1|4,2|4,7|4,1|4,1|4,1|4,1|4,2|4,1|4,1|4,4|4,1|4,1|4,1|4,15|4,1|4,4|4,4|4,1|4,3|4,1|4,3|4,1|4,1|4,1|4,1|4,1|4,1|4,1|5,1|5,1|5,1|5,1|5,1|5,6|5,1|5,13|5,1|5,1|5,1|5,1|5,1|5,5|5,1|5,1|5,1|5,1|5,7|5,1|5,4|5,1|5,5|5,1|5,1|5,1|5,1|5,6|5,1|5,1|5,8|5,1|5,1|5,1|5,4|5,1|5,1|5,1|5,1|5,1|5,1|5,1|5,2"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            5.813953488372093,
+            3.604651162790698
+          ],
+          "error_y": [
+            1.0540518320375916,
+            0.7676599576000168
+          ],
+          "name": "No-AI",
+          "raw": "0,1|0,2|0,3|0,1|0,14|0,1|0,1|0,10|0,3|0,1|0,3|0,1|0,1|0,1|0,1|0,3|0,5|0,14|0,6|0,9|0,17|0,1|0,6|0,2|0,2|0,7|0,1|0,5|0,1|0,30|0,4|0,29|0,1|0,8|0,10|0,3|0,16|0,10|0,5|0,7|0,1|0,1|0,2|1,1|1,6|1,1|1,1|1,3|1,6|1,1|1,7|1,1|1,1|1,3|1,1|1,1|1,1|1,1|1,2|1,2|1,1|1,1|1,3|1,4|1,2|1,14|1,4|1,8|1,1|1,2|1,1|1,3|1,28|1,7|1,5|1,1|1,15|1,1|1,1|1,1|1,1|1,1|1,2|1,1|1,7|1,1"
+        }
+      ]
+    },
+    "corrections": {
+      "name": "Corrective Label Actions (%)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.046511627906976744,
+            0.06976744186046512,
+            0.023255813953488372,
+            0.046511627906976744
+          ],
+          "error_y": [
+            0.03249479679096614,
+            0.05150394664112287,
+            0.023255813953488372,
+            0.046511627906976744
+          ],
+          "name": "With-AI",
+          "raw": "2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,1|2,0|2,0|2,0|2,0|2,0|2,0|2,1|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|2,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,2|3,0|3,0|3,0|3,0|3,0|3,1|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|3,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,1|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|4,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,0|5,2|5,0|5,0|5,0|5,0"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.09302325581395349,
+            0.0
+          ],
+          "error_y": [
+            0.05582318122316085,
+            0.0
+          ],
+          "name": "No-AI",
+          "raw": "0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,1|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,2|0,0|0,0|0,1|0,0|0,0|0,0|0,0|0,0|0,0|0,0|0,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0|1,0"
+        }
+      ]
+    },
+    "uptake": {
+      "name": "Uptake Metric (1/#queries)",
+      "series": [
+        {
+          "x": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "y": [
+            0.5693689164772396,
+            0.6086677306581548,
+            0.7024891387682084,
+            0.730259288960171
+          ],
+          "error_y": [
+            0.05900014954750307,
+            0.05809232784865581,
+            0.05917397934777632,
+            0.054479353932223355
+          ],
+          "name": "With-AI",
+          "raw": "2,1.0|2,1.0|2,1.0|2,0.0|2,0.5|2,0.125|2,1.0|2,0.0|2,1.0|2,1.0|2,0.5|2,0.02631578947368421|2,1.0|2,1.0|2,0.2|2,0.3333333333333333|2,0.0|2,0.5|2,0.3333333333333333|2,1.0|2,0.5|2,1.0|2,1.0|2,1.0|2,0.25|2,0.5|2,0.5|2,0.5|2,0.16666666666666666|2,0.0|2,0.25|2,1.0|2,0.5|2,1.0|2,0.03571428571428571|2,1.0|2,0.5|2,0.0625|2,0.5|2,1.0|2,1.0|2,0.5|2,0.2|3,0.25|3,1.0|3,1.0|3,0.0|3,1.0|3,1.0|3,1.0|3,0.0|3,1.0|3,0.041666666666666664|3,1.0|3,0.16666666666666666|3,0.1|3,1.0|3,1.0|3,0.3333333333333333|3,0.5|3,0.3333333333333333|3,0.25|3,1.0|3,0.5|3,1.0|3,0.058823529411764705|3,0.25|3,0.5|3,1.0|3,0.5|3,0.5|3,0.25|3,0.5|3,1.0|3,0.5|3,0.5|3,1.0|3,0.05555555555555555|3,1.0|3,1.0|3,0.08333333333333333|3,0.5|3,1.0|3,1.0|3,1.0|3,0.5|4,0.3333333333333333|4,0.03571428571428571|4,1.0|4,0.0|4,1.0|4,0.5|4,1.0|4,0.0|4,0.038461538461538464|4,1.0|4,0.5|4,0.14285714285714285|4,1.0|4,1.0|4,1.0|4,1.0|4,1.0|4,0.25|4,0.3333333333333333|4,1.0|4,1.0|4,1.0|4,1.0|4,1.0|4,0.3333333333333333|4,1.0|4,1.0|4,1.0|4,0.2|4,1.0|4,1.0|4,0.3333333333333333|4,0.5|4,1.0|4,0.04|4,1.0|4,1.0|4,0.3333333333333333|4,1.0|4,0.3333333333333333|4,1.0|4,1.0|4,1.0|5,1.0|5,1.0|5,1.0|5,0.0|5,1.0|5,0.5|5,1.0|5,0.0|5,0.5|5,1.0|5,1.0|5,1.0|5,1.0|5,1.0|5,0.3333333333333333|5,1.0|5,1.0|5,0.3333333333333333|5,0.16666666666666666|5,0.5|5,0.16666666666666666|5,1.0|5,1.0|5,0.5|5,1.0|5,0.5|5,0.5|5,0.5|5,1.0|5,1.0|5,1.0|5,1.0|5,1.0|5,1.0|5,0.034482758620689655|5,1.0|5,1.0|5,0.3333333333333333|5,1.0|5,0.3333333333333333|5,0.2|5,1.0|5,1.0"
+        },
+        {
+          "x": [
+            0,
+            1
+          ],
+          "y": [
+            0.5055475413339551,
+            0.5476536544850498
+          ],
+          "error_y": [
+            0.061523336038982405,
+            0.06531708739300066
+          ],
+          "name": "No-AI",
+          "raw": "0,1.0|0,1.0|0,0.0|0,0.5|0,0.125|0,0.0|0,1.0|0,0.0|0,0.05|0,0.0|0,0.2|0,1.0|0,0.5|0,1.0|0,0.1|0,0.14285714285714285|0,0.5|0,0.25|0,1.0|0,0.25|0,0.2|0,0.0|0,0.5|0,1.0|0,1.0|0,0.5|0,1.0|0,0.5|0,1.0|0,0.0|0,1.0|0,0.05555555555555555|0,0.5|0,1.0|0,0.05263157894736842|0,0.5|0,1.0|0,0.5|0,0.5|0,0.25|0,1.0|0,0.0625|0,1.0|1,0.14285714285714285|1,1.0|1,0.0|1,0.0|1,1.0|1,0.2|1,0.2|1,0.0|1,0.0|1,1.0|1,1.0|1,1.0|1,1.0|1,1.0|1,0.2|1,0.5|1,0.05|1,1.0|1,1.0|1,0.2|1,1.0|1,0.16666666666666666|1,0.5|1,0.5|1,0.16666666666666666|1,1.0|1,0.16666666666666666|1,1.0|1,1.0|1,0.0|1,0.5|1,0.125|1,0.2|1,0.03333333333333333|1,1.0|1,1.0|1,0.5|1,0.03125|1,1.0|1,1.0|1,1.0|1,0.16666666666666666|1,1.0"
+        }
+      ]
+    }
+  }
+}

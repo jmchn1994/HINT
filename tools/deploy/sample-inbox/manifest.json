@@ -1,0 +1,8 @@
+{
+  "arnold-j.txt": {
+    "inst": [
+      "This inbox's owner is John Arnold.",
+      "Your task is to find all event related emails John has received and tag them through the interface.",
+      "If two emails refer to the same event, tag them both. There should be 5-15 events."]
+  }
+}

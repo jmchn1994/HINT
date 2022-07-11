@@ -1,0 +1,51 @@
+{
+  "name": "analysis-tool",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^26.0.8",
+    "@types/node": "^14.0.27",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-plotly.js": "^2.2.4",
+    "plotly.js": "^1.54.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "react-plotly.js": "^2.4.0",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.9.7"
+  },
+  "scripts": {
+    "start": "node --max-old-space-size=8192 --max_old_space_size=8192 ./node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "node --max-old-space-size=8192 --max_old_space_size=8192 ./node_modules/react-scripts/bin/react-scripts.js build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "resolutions": {
+    "styled-components": "^5"
+  },
+  "homepage": "./",
+  "devDependencies": {
+    "styled-components": "^5.1.1",
+    "@types/styled-components": "^5.1.2"
+  }
+}
